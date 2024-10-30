@@ -14,7 +14,7 @@ namespace StudentAdminSys.Migrations
                 {
                     Email = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Education = table.Column<int>(type: "int", nullable: false),
+                    Education = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     SemesterId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

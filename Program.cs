@@ -14,9 +14,16 @@ builder.Services.AddScoped<IRepository, Repository>();
 
 var app = builder.Build();
 app.UseStaticFiles();
+app.MapControllerRoute("catpage",
+ "{category}/Page{Page:int}",
+ new { Controller = "Home", action = "Index" });
+app.MapControllerRoute("page", "Page{Page:int}",
+ new { Controller = "Home", action = "Index", Page = 1 });
+app.MapControllerRoute("category", "{category}",
+ new { Controller = "Home", action = "Index", Page = 1 });
 app.MapControllerRoute("pagination",
  "/Page{Page}",
- new { Controller = "Home", action = "Index" });
+ new { Controller = "Home", action = "Index", Page = 1 });
 
 app.UseRouting();
 app.MapControllerRoute(

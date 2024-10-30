@@ -15,6 +15,9 @@
         <h3> Welcome the EAMV System Administration website.</h3>
         <div class="text-center p-2">
             <h2>Here is the list of students attending EAMV</h2>
+
+            <vc:navigation-menu />
+
             <table class="table table-bordered table-striped table-sm">
                 <thead>
                     <tr><th>Name</th><th>Education</th><th>Semester</th>
@@ -39,6 +42,7 @@
         </div>
         <div page-model="@Model?.PagingInfo" page-action="Index" page-classes-enabled="true"
              page-class="btn" page-class-normal="btn-outline-dark"
+             page-class-selected="btn-primary" page-url-category="@Model?.CurrentCategory!"
              page-class-selected="btn-primary" class="btn-group pull-right m-1">
         </div><br />
 

@@ -14,9 +14,10 @@ namespace StudentAdminSys.Controllers {
             this.repository = repository;
         }
 
-        public ViewResult Index(int Page = 1)
+        public ViewResult Index(string? category, int Page = 1)
             => View(new StudentListViewModel{
                 Students = repository.Students
+                    .Where(p => category == null || p.Education == category)
                     .OrderBy(p => p.Name)
                     .Skip((Page - 1) * PageSize)
                     .Take(PageSize),
@@ -25,7 +26,8 @@ namespace StudentAdminSys.Controllers {
                     CurrentPage = Page,
                     ItemsPerPage = PageSize,
                     TotalItems = repository.Students.Count()
-                }
+                },
+                CurrentCategory = category
             });
 
         //public IActionResult Index() {
