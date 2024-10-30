@@ -1,0 +1,43 @@
+﻿@model StudentAdminSys.Models.Student
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Create student</title>
+</head>
+<body>
+    <h5 class="bg-primary text-white text-center m-2 p-2">Create student</h5>
+    <form asp-action="CreateStudent" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="Name" class="form-label">Students name:</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Education">Which education will the student be attending?</label>
+            <select asp-for="Education" class="form-control">
+                <option value="">Choose an option</option>
+                <option value="1">Datamatiker</option>
+                <option value="2">Multimedie</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="SemesterId" class="form-label">Which semester:</label>
+            <input asp-for="SemesterId" type="number" min="1" max="5" class="form-control" value="1" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="form-label">Students email:</label>
+            <input asp-for="Email" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Create student</button>
+        <a href="/" class="btn btn-danger mt-3 ">Cancel</a>
+    </form>
+</body>
+
+
+</html>

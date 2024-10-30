@@ -1,0 +1,27 @@
+﻿@model StudentAdminSys.Models.Student
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Congratulations</title>
+</head>
+<body class="text-center">
+    <div>
+        <h1>Congratulations, @Model?.Name!</h1>
+        @if (Model?.Education == 1) {
+            @:We look forward to seeing you attend the Datamatiker education.
+        } else {
+            @:Sorry to hear that you are joining the Multimediedesigner education, but we look forward to seeing you!
+        }
+    </div>
+    <div>
+        Click <a asp-action="StudentList">here</a> to see a list of all students.
+        <br/>Click <a asp-action="CreateStudent">here</a> to create another student.
+    </div>
+</body>
+</html>

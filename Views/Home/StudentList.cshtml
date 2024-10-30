@@ -1,0 +1,44 @@
+﻿@model IEnumerable<StudentAdminSys.Models.Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Students list</title>
+</head>
+<body>
+    <div class="text-center p-2">
+        <h2>Here is the list of students attending EAMV</h2>
+        <table class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr><th>Name</th><th>Education</th><th>Semester</th>
+            </thead>
+            <tbody>
+                @foreach (StudentAdminSys.Models.Student r in Model!) {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Education</td>
+                        <td>@r.SemesterId</td>
+                        <td>
+                            <form asp-action="RemoveStudent" method="post">
+                                <input type="hidden" name="email" value="@r.Email" />
+                                <button type="submit" class="btn btn-danger mt-3">Delete</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form asp-action="EditStudent" method="post">
+                                <input type="hidden" name="email" value="@r.Email" />
+                                <button type="submit" class="btn btn-danger mt-3">Edit</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
