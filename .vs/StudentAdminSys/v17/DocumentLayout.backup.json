@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\s-l-g\\source\\repos\\StudentAdminSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82EAB86E-966C-43DB-A086-5C379082EB3F}|StudentAdminSys.csproj|c:\\users\\s-l-g\\source\\repos\\studentadminsys\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82EAB86E-966C-43DB-A086-5C379082EB3F}|StudentAdminSys.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82EAB86E-966C-43DB-A086-5C379082EB3F}|StudentAdminSys.csproj|c:\\users\\s-l-g\\source\\repos\\studentadminsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82EAB86E-966C-43DB-A086-5C379082EB3F}|StudentAdminSys.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EAB86E-966C-43DB-A086-5C379082EB3F}|StudentAdminSys.csproj|c:\\users\\s-l-g\\source\\repos\\studentadminsys\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EAB86E-966C-43DB-A086-5C379082EB3F}|StudentAdminSys.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EAB86E-966C-43DB-A086-5C379082EB3F}|StudentAdminSys.csproj|c:\\users\\s-l-g\\source\\repos\\studentadminsys\\migrations\\studentdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,8 +62,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\s-l-g\\source\\repos\\StudentAdminSys\\Models\\Repository.cs",
+              "RelativeDocumentMoniker": "Models\\Repository.cs",
+              "ToolTip": "C:\\Users\\s-l-g\\source\\repos\\StudentAdminSys\\Models\\Repository.cs",
+              "RelativeToolTip": "Models\\Repository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:33:37.089Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -75,19 +88,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\s-l-g\\source\\repos\\StudentAdminSys\\Models\\Repository.cs",
-              "RelativeDocumentMoniker": "Models\\Repository.cs",
-              "ToolTip": "C:\\Users\\s-l-g\\source\\repos\\StudentAdminSys\\Models\\Repository.cs",
-              "RelativeToolTip": "Models\\Repository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T08:33:37.089Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\s-l-g\\source\\repos\\StudentAdminSys\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

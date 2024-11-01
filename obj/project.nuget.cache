@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WP5G+vInPTY=",
+  "dgSpecHash": "MKM2JcIWFJw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\s-l-g\\source\\repos\\StudentAdmin\\StudentAdminSys.csproj",
+  "projectFilePath": "C:\\Users\\s-l-g\\Source\\Repos\\StudentAdminSys\\StudentAdminSys.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s-l-g\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\s-l-g\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

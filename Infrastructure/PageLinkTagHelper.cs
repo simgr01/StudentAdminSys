@@ -10,8 +10,10 @@ namespace StudentAdminSys.Infrastructure
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper
     {
-        private IUrlHelperFactory urlHelperFactory; public PageLinkTagHelper(IUrlHelperFactory helperFactory) { urlHelperFactory = helperFactory; }
-
+        private IUrlHelperFactory urlHelperFactory;
+        public PageLinkTagHelper(IUrlHelperFactory helperFactory){
+            urlHelperFactory = helperFactory;
+        }
 
         [ViewContext]
         [HtmlAttributeNotBound]

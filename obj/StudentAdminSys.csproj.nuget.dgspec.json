@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s-l-g\\source\\repos\\StudentAdmin\\StudentAdminSys.csproj": {}
+    "C:\\Users\\s-l-g\\Source\\Repos\\StudentAdminSys\\StudentAdminSys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s-l-g\\source\\repos\\StudentAdmin\\StudentAdminSys.csproj": {
+    "C:\\Users\\s-l-g\\Source\\Repos\\StudentAdminSys\\StudentAdminSys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s-l-g\\source\\repos\\StudentAdmin\\StudentAdminSys.csproj",
+        "projectUniqueName": "C:\\Users\\s-l-g\\Source\\Repos\\StudentAdminSys\\StudentAdminSys.csproj",
         "projectName": "StudentAdminSys",
-        "projectPath": "C:\\Users\\s-l-g\\source\\repos\\StudentAdmin\\StudentAdminSys.csproj",
+        "projectPath": "C:\\Users\\s-l-g\\Source\\Repos\\StudentAdminSys\\StudentAdminSys.csproj",
         "packagesPath": "C:\\Users\\s-l-g\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s-l-g\\source\\repos\\StudentAdmin\\obj\\",
+        "outputPath": "C:\\Users\\s-l-g\\Source\\Repos\\StudentAdminSys\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
