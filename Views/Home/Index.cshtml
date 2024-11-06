@@ -1,0 +1,53 @@
+﻿@model StudentListViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>EAMV</title>
+</head>
+<body>
+    <div class="text-center m-2">
+        <h3> Welcome the EAMV System Administration website.</h3>
+        <div class="text-center p-2">
+            <h2>Here is the list of students attending EAMV</h2>
+
+            <vc:navigation-menu />
+
+
+            <table class="table table-bordered table-striped table-sm">
+                <thead>
+                    <tr><th>Name</th><th>Education</th><th>Semester</th>
+                </thead>
+                <tbody>
+                    @foreach (var r in Model?.Students ?? Enumerable.Empty<Student>())
+                    {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Education</td>
+                        <td>@r.SemesterId</td>
+                            <td>
+                                <form asp-action="RemoveStudentIndex" method="post">
+                                    <input type="hidden" name="email" value="@r.Email" />
+                                    <button type="submit" class="btn btn-primary mt-3">Delete</button>
+                                </form>
+                            </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+        <div page-model="@Model?.PagingInfo" page-action="Index" page-classes-enabled="true"
+             page-class="btn" page-class-normal="btn-outline-dark"
+             page-class-selected="btn-primary" page-url-category="@Model?.CurrentCategory!"
+             page-class-selected="btn-primary" class="btn-group pull-right m-1">
+        </div><br />
+
+        <a class="btn btn-primary" asp-action="CreateStudent">Click here to create a student</a>
+    </div>
+</body>
+</html>

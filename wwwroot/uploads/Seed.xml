@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+	<Student>
+		<Id>1</Id>
+		<Name>John Hitler</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>2</SemesterId>
+		<Email>john.Hitler@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>1</Id>
+		<Name>John Doe</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>2</SemesterId>
+		<Email>john.doe1@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>2</Id>
+		<Name>Jane Smith</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>3</SemesterId>
+		<Email>jane.smith2@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>3</Id>
+		<Name>Emily Johnson</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>4</SemesterId>
+		<Email>emily.johnson3@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>4</Id>
+		<Name>Michael Brown</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>1</SemesterId>
+		<Email>michael.brown4@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>5</Id>
+		<Name>Chris Lee</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>5</SemesterId>
+		<Email>chris.lee5@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>6</Id>
+		<Name>Amy Davis</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>2</SemesterId>
+		<Email>amy.davis6@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>7</Id>
+		<Name>David Wilson</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>3</SemesterId>
+		<Email>david.wilson7@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>8</Id>
+		<Name>Sarah White</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>4</SemesterId>
+		<Email>sarah.white8@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>9</Id>
+		<Name>Daniel Harris</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>1</SemesterId>
+		<Email>daniel.harris9@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>10</Id>
+		<Name>Jessica Clark</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>5</SemesterId>
+		<Email>jessica.clark10@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>11</Id>
+		<Name>Robert Lewis</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>2</SemesterId>
+		<Email>robert.lewis11@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>12</Id>
+		<Name>Linda Young</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>3</SemesterId>
+		<Email>linda.young12@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>13</Id>
+		<Name>Kevin Walker</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>4</SemesterId>
+		<Email>kevin.walker13@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>14</Id>
+		<Name>Nancy Hall</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>1</SemesterId>
+		<Email>nancy.hall14@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>15</Id>
+		<Name>Steven Allen</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>5</SemesterId>
+		<Email>steven.allen15@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>16</Id>
+		<Name>Lisa Scott</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>2</SemesterId>
+		<Email>lisa.scott16@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>17</Id>
+		<Name>Mark Adams</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>3</SemesterId>
+		<Email>mark.adams17@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>18</Id>
+		<Name>Elizabeth Nelson</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>4</SemesterId>
+		<Email>elizabeth.nelson18@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>19</Id>
+		<Name>James Carter</Name>
+		<Education>Datamatiker</Education>
+		<SemesterId>1</SemesterId>
+		<Email>james.carter19@eamv.dk</Email>
+	</Student>
+	<Student>
+		<Id>20</Id>
+		<Name>Patricia Mitchell</Name>
+		<Education>Multimedie</Education>
+		<SemesterId>5</SemesterId>
+		<Email>patricia.mitchell20@eamv.dk</Email>
+	</Student>
+</Students>
